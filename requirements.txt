@@ -1,0 +1,16 @@
+# --- Jupyter Environment ---
+jupyter>=1.0.0
+ipykernel>=6.29.0
+notebook>=7.0.0
+
+# --- Core Data Science & Matrix Operations ---
+numpy>=1.26.0,<2.0.0
+pandas>=2.1.0,<3.0.0
+scipy>=1.11.0,<2.0.0
+scikit-learn>=1.3.0,<2.0.0
+
+# --- Collaborative Filtering & Matrix Factorization ---
+scikit-surprise>=1.1.4
+
+# --- Utilities ---
+tqdm>=4.66.0
