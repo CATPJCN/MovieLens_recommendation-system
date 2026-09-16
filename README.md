@@ -62,7 +62,7 @@ $$\hat{r}_{ui} = \mu + b_u + b_i$$
   where $\mu$ is overall dataset mean, $b_u = \bar{r}_u - \mu$, and $b_i = \bar{r}_i - \mu$.
 - Predictions over unseen user-item pairs are clipped and normalized:
 
-$$\text{norm\_score} = \text{clip}\left(\frac{\hat{r}_{ui} - 1.0}{4.0}, 0.0, 1.0\right)$$
+$$\text{norm}_{\text{score}} = \text{clip}\left(\frac{\hat{r}_{ui} - 1.0}{4.0}, 0.0, 1.0\right)$$
 
 ### 3. Latent Factor Collaborative Filtering (SVD)
 - Factorizes sparse user-item interaction matrix using Stochastic Gradient Descent (SGD).
